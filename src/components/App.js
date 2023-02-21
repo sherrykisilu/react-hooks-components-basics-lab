@@ -1,26 +1,8 @@
 import React from "react";
+import NavBar from "./NavBar";
+import About from "./About";
+import Home from "./Home";
 
-function NavBar() {
-  return (
-    <nav>
-      <a href="#home">I'm a link!</a>
-    </nav>
-  );
-}
-
-function Home() {
-  return (
-    <div id="home">
-      <h1>Home</h1>
-    </div>
-  );
-}
-
-function About(){
-  <div id="about">
-    <h2>"About"</h2>
-  </div>
-}
 
 function App() {
   return (
@@ -31,5 +13,5 @@ function App() {
     </div>
   );
 }
-export default Home;
+export default App;
 
